@@ -3,7 +3,6 @@ import {Image3} from "./Image3"
 import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { motion } from "framer-motion";
-import { bounce} from "@wellyshen/use-web-animations"
 
 const useStyles = makeStyles({
   root: {
@@ -14,11 +13,9 @@ const useStyles = makeStyles({
     alignItems: "center",
     paddingTop: 50,
     height: 500,
-    // border: "1px solid"
   },
   typoDiv:{
     marginRight: 200,
-    // border: "solid",
     height: 200
   },
   typo1: {

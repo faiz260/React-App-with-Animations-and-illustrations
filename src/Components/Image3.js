@@ -6,7 +6,7 @@ const useStyles = makeStyles(() => ({
   image: {
     width: 400,
     height: 400,
-  },
+  }
 }));
 
 export const Image3 = () => {
@@ -34,9 +34,8 @@ export const Image3 = () => {
   return (
     <div>
       <motion.div
-        animate={{ opacity: showActions ? 2 : 0 }, {x: showActions ? -100: 100}}
+        animate={{ opacity: showActions ? 2 : 0 }, {x: showActions ? -100 : 100}}
         whileHover={{ scale: 1.1 }}
-        // initial="hidden"
         transition={{ ease: ["easeOut", "easeIn"], duration: 2 }}
       >
         <Image className={classes.image} />

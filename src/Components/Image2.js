@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import animationData from "./Loties/26402-working.json";
 import { makeStyles } from "@material-ui/core/styles";
 import Lottie from "react-lottie";

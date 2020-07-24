@@ -1,11 +1,10 @@
-import React,{useRef, useEffect} from "react";
+import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Paper, Typography } from "@material-ui/core";
 import {Image1} from './Image1'
 import useWebAnimations, {
   flipInY,
 } from "@wellyshen/use-web-animations";
-import {gsap} from "gsap";
 
 const useStyles = makeStyles((theme) => ({
   root: {
