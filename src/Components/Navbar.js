@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) =>({
     position: "fixed",  
     width: "100%",
     marginBottom: 60,
+    backgroundColor: "lightgrey"
   },
   grid: {
     display: "flex",
@@ -37,7 +38,7 @@ const useStyles = makeStyles((theme) =>({
     height: 50,
   },
   paper:{
-
+    backgroundColor: "lightgrey"
   },
   offset: theme.mixins.Grid,
 }));
